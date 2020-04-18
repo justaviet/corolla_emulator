@@ -4,7 +4,7 @@
 MCP_CAN CAN(10);          //set SPI Chip Select to pin 10
 
 //Variables for button presses
-unsigned char pins[4] = {3, 4, 5, 6};
+unsigned char pins[4] = {6, 7, 8, 9};
 unsigned char buf[8];
 boolean flag1 = false;
 boolean flag2 = false;
